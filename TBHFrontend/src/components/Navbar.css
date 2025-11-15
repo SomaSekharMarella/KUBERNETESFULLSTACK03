@@ -1,0 +1,20 @@
+/* Navbar.css */
+
+.navbar {
+  background: #515d8fff;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #ffcc00; /* Change color on hover */
+}

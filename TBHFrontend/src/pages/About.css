@@ -1,0 +1,69 @@
+/* About.css */
+
+.about-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.about-container h1 {
+  color: #515d8f;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.about-container h2 {
+  color: #333;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #515d8f;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.about-container p {
+  margin-bottom: 15px;
+}
+
+.about-container .intro {
+  font-size: 18px;
+}
+
+.about-container ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.about-container ul li {
+  margin-bottom: 10px;
+  position: relative;
+  padding-left: 25px;
+}
+
+.about-container ul li::before {
+  content: '•';
+  color: #515d8f;
+  position: absolute;
+  left: 0;
+  font-size: 20px;
+}
+
+.about-container .quote {
+  font-style: italic;
+  color: #555;
+  border-left: 4px solid #515d8f;
+  padding-left: 15px;
+  margin: 15px 0;
+}
+
+.about-container .cta {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  color: #ff6600;
+  margin-top: 30px;
+}
